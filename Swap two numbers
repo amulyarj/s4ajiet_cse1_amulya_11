@@ -1,16 +1,16 @@
-swap any two numbers
+swap any two numbers using 2 variable
 Java Code:
 class Main {
     public static void main(String[] args) {
-        int a=3;
-        int b=9;
+        int a=2;
+        int b=3;
         System.out.println("Before swap:a="+a+"and b="+b);
-        int temp=a;
-        a=b;
-        b=temp;
+        a=a+b;
+        b=a-b;
+        a=a-b;
         System.out.println("After swap:a="+a+"and b="+b);
     }
 }
 output:
-Before swap:a=3and b=9
-After swap:a=9and b=3
+Before swap:a=2and b=3
+After swap:a=3and b=2
