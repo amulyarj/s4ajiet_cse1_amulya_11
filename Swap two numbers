@@ -1,4 +1,17 @@
-swap any two numbers using 2 variable
+swap any two numbers using temp
+Java code:
+class Main {
+    public static void main(String[] args) {
+        int a=2;
+        int b=3;
+        System.out.println("Before swap:a="+a+"and b="+b);
+        int temp=a;
+        a=b;
+        b=temp;
+        System.out.println("After swap:a="+a+"and b="+b);
+    }
+}
+swap any two numbers using + or - operator
 Java Code:
 class Main {
     public static void main(String[] args) {
@@ -11,6 +24,20 @@ class Main {
         System.out.println("After swap:a="+a+"and b="+b);
     }
 }
+swap any two numbers using xor gate:
+Java Code:
+class Main {
+    public static void main(String[] args) {
+        int a=2;
+        int b=3;
+        System.out.println("Before swap:a="+a+"and b="+b);
+        a=a^b;
+        b=a^b;
+        a=a^b;
+        System.out.println("After swap:a="+a+"and b="+b);
+    }
+}
+
 output:
 Before swap:a=2and b=3
 After swap:a=3and b=2
