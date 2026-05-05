@@ -1,0 +1,36 @@
+Find the largest element in an array:
+public class LargestElement{
+    public static void main(String[] args) {
+        int i;
+        int[] arr={40,25,34,56,22};
+        int largest=arr[0];
+        for(i=1;i< arr.length;i++)
+        {
+            if(arr[i]>largest){
+                largest=arr[i];
+            }
+        }
+        System.out.println("Largest element is:"+largest);
+    }
+}
+Output:
+Largest element is:56
+
+Find the smallest element in an array:
+public class SmallestElement{
+    public static void main(String[] args) {
+        int i;
+        int[] arr={40,25,34,56,22};
+        int smallest=arr[0];
+        for(i=1;i< arr.length;i++)
+        {
+            if(arr[i]<smallest){
+                smallest=arr[i];
+            }
+        }
+        System.out.println("Smallest element is:"+smallest);
+    }
+}
+Output:
+Smallest element is:22
+Smallest element is:22
