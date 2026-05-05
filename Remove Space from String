@@ -1,0 +1,17 @@
+Java code to remove space from string:
+
+import java.util.Scanner;
+public class RemoveSpaces {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a string with spaces:");
+        String input = sc.nextLine();
+        String result = input.replaceAll("\\s", "");
+        System.out.println("String after removing spaces: " + result);
+        sc.close();
+    }
+}
+Output:
+Enter a string with spaces:
+Hell oI am Amulya R J
+String after removing spaces: HelloIamAmulyaRJ
