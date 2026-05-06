@@ -89,3 +89,34 @@ Contain amulya:false
 Contain 20:true
 ai:[20, 40, 10]
 size:3
+
+->Programming using TreeSet:
+import java.util.TreeSet;
+class Main{
+    public static void main(String[] args) {
+        TreeSet<Integer> ai=new TreeSet< >();
+        ai.add(10);
+        ai.add(20);
+        ai.add(10);
+        ai.add(40);
+        System.out.println("ai:"+ai);
+    }
+}
+output:
+ai:[10, 20, 40]
+
+->Programming using LinkedHashSet:
+import java.util.LinkedHashSet;
+class Main{
+    public static void main(String[] args) {
+        LinkedHashSet<Integer> ai=new LinkedHashSet< >();
+        ai.add(10);
+        ai.add(20);
+        ai.add(30);
+        ai.add(40);
+        ai.remove(20);
+        System.out.println("ai:"+ai);
+    }
+}
+output:
+ai:[10, 30, 40]
