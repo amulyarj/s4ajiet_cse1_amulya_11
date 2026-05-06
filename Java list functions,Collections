@@ -120,3 +120,21 @@ class Main{
 }
 output:
 ai:[10, 30, 40]
+
+->Programming using HashMap:
+import java.util.HashMap;
+class Main {
+    public static void main(String[] args) {
+       HashMap <Integer,String> m=new HashMap <> ();
+       m.put(101,"Alice");
+       m.put(102,"Bob");
+       m.put(103,"Caroline");
+       m.put(104,"Elena");
+       m.get(102);
+       m.remove(103);
+       System.out.println("m:"+m);
+        
+    }
+}
+Output:
+m:{101=Alice, 102=Bob, 104=Elena}
