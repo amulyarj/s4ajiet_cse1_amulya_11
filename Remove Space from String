@@ -21,3 +21,16 @@ output:
 Enter a string with spaces:
 Hello I am Amulya R J
 String after removing spaces: HelloIamAmulyaRJ
+                                                                            [OR]
+import java.util.Scanner;
+
+public class RemoveSpaces {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a string: ");
+        String str = sc.nextLine();
+        String result = str.replaceAll(" ", "");
+        System.out.println("String without spaces: " + result);
+        sc.close();
+    }
+}
