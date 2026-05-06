@@ -1,0 +1,22 @@
+Program using list functions:
+
+import java.util.ArrayList;
+class Main{
+    public static void main(String[] args) {
+        ArrayList <String> list=new ArrayList< >();
+        list.add("Java");
+        list.add("Python");
+        list.add("Java");
+        list.add(0,"amulya");
+        list.set(1,"ADA");
+        list.remove(2);
+        //list.clear();    output:[]
+        System.out.println(list);
+         System.out.println("Index[0]:"+list.get(0));
+         System.out.println("Size:"+list.size());
+    }
+}
+output:
+[amulya, ADA, Java]
+Index[0]:amulya
+Size:3
