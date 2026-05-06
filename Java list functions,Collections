@@ -1,4 +1,4 @@
-Program using list functions:
+->Program using list functions:
 
 import java.util.ArrayList;
 class Main{
@@ -20,7 +20,8 @@ output:
 [amulya, ADA, Java]
 Index[0]:amulya
 Size:3
-Program using list functions:
+
+->Program using list functions:
 import java.util.LinkedList;
 class Main{
     public static void main(String[] args) {
@@ -41,7 +42,8 @@ output:
 10
 30
 List:[10, 20, 30]
-Programming using Collection:
+
+->Programming using Collection:
 import java.util.Collections;
 import java.util.LinkedList;
 class Main{
